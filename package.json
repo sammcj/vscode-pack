@@ -16,7 +16,7 @@
     "next-version": "git describe --tags --abbrev=0 | awk -F. '{OFS=\".\"; $NF+=1; print $0}'",
     "bump-tag": "git tag $(npm run next-version --silent)",
     "bump-version": "npm version from-git",
-    "push-tags": "npm run bump-tag && npm run bump-version && git push --tags"
+    "bump-and-push": "npm run bump-tag && npm run bump-version && git push --tags"
   },
   "categories": [
     "Extension Packs"
