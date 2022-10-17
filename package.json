@@ -2,7 +2,7 @@
   "name": "sammcj-vscode-pack",
   "displayName": "sammcj-vscode-pack",
   "description": "Sam's vscode extension pack",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "publisher": "sammcleod",
   "icon": "images/derp.png",
   "repository": {
