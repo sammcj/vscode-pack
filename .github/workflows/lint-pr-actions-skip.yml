@@ -1,5 +1,3 @@
-#### THIS FILE IS MANAGED BY AN AUTOMATED WORKFLOW ####
-
 name: "Lint Github Actions Workflows"
 
 # This is a gross hack to allow PRs that don't require a specific workflow to run (e.g. don't lint files not touched) by providing a positive status check in their place.
