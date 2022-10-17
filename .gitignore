@@ -184,3 +184,6 @@ override.tf.json
 
 # Docker
 **/docker-compose.override.y*ml
+
+# VSCode packages
+*.vsix
