@@ -10,7 +10,7 @@
     "url": "https://github.com/sammcj/vscode-pack"
   },
   "engines": {
-    "vscode": "^1.72.0"
+    "vscode": "^1.72.2"
   },
   "scripts": {
     "next-version": "git describe --tags --abbrev=0 | awk -F. '{OFS=\".\"; $NF+=1; print $0}'",
