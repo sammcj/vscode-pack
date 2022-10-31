@@ -14,7 +14,7 @@ jobs:
           node-version-file: ".nvmrc"
       - run: npm ci
       - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@2099f4d11af960331ac6d275b772d3de14f7e104 # tag=v1
+        uses: HaaLeo/publish-vscode-extension@61bd2d0647232ad9edca3736b4c8748659f9f6b8 # tag=v1
         with:
           pat: ${{ secrets.VS_MARKETPLACE_TOKEN }}
           registryUrl: https://marketplace.visualstudio.com
